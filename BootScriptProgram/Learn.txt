@@ -1,0 +1,120 @@
+页面创建
+    container container-fluid container-fluid,100%
+网格系统
+    col 自动布局 col-* 所有设备 col-sm-* 平板 col-md-* 桌面 col-lg-* 大桌面 col-xl-* 超大桌面
+        offset-*-* 偏移列
+排版
+    display-(1-4) 控制标题样式
+    <small> 更小颜色更浅的文本（副标题）
+    <mark> 高亮文本（黄色背景有一定内边距）
+    <abbr> 文本底部有一条虚线边框
+    <blockquote> 引用的文本写在里面
+        blockquote 更改样式blockquote标签的样式
+        <footer> 来自于谁的引用
+            blockquote-footer 更改样式footer标签的样式
+    <dll> 同dl dt dd
+    <code> 可以将代码元素放到code里
+    <kbd> 键盘输入提示
+    <pre> 显示多行代码
+颜色设置
+    text-muted 柔和的文本 text-primary 主要的文本 text-success 执行成功的文本 text-info 信息提示的文本 text-warning 警告文本 text-danger 危险操作文本 text-secondary 次要标题 text-dark 深灰色文字 text-light 浅灰色文本 text-white 白色文本 
+        bg-primary 主要的背景颜色 bg-success 执行成功背景颜色 bg-info 信息提示背景颜色 bg-warning 警告背景颜色 bg-danger 危险操作背景颜色 bg-secondary 次要背景颜色 bg-dark 深灰背景颜色 bg-light 浅灰背景颜色
+表格设置
+    table 基础表格样式
+        table-striped 条纹表格 table-bordered 带边框表格 table-hover 鼠标悬停状态表格 table-dark 黑色背景表格
+        table-primary 主要的行列 table-success 执行成功的行列 table-danger 危险操作的行列 table-info 信息提示的行列 table-warning 警告的行列 table-active 用于鼠标悬停效果 table-secondary 次要内容的行列 table-light 浅灰色的行列 table-dark 深灰色的行列
+        thead-dark 深灰色表头 thead-light 浅灰色背景
+        table-sm 较小的表格
+        table-responsive- 响应式表格 sm 平板 md 桌面 lg 大桌面 xl 超大桌面
+图片设置
+    img-rounded 圆角效果 img-circle 椭圆形图片 img-thumbnail 图片有边框
+    float-left 左对齐 float-right 右对齐
+    img-fluid 响应式图片
+超大屏幕Jumbotron
+    jumbotron div创建超大屏幕Jumbotron
+        jumbotron-fluid 全屏幕的Jumbotron
+信息提示框
+    alert div创建信息提示框
+      alert-success 执行成功的提示框 alert-info 信息提示的提示框 alert-warning 警告的提示框 alert-danger 危险操作的提示框 alert-primary 主要的提示框 alert-secondary 次要提示框 alert-dark 深灰色提示框 alert-light 浅灰色提示框  
+      alert-link 匹配提示框颜色的链接
+      alert-dismissable + (button)class="close"+data-dismiss="alert" 用于关闭提示框
+      fade 淡出 show 淡入
+按钮
+    btn a、button、input创建按钮
+        btn-success 执行成功的按钮 btn-info 信息提示的按钮 btn-warning 警告的按钮 btn-danger 危险操作的按钮 btn-dark 深灰色的按钮 btn-light 浅灰色的背景 btn-link 链接样式
+        btn-outline-primary 主要边框按钮 btn-outline-secondary 次要边框按钮 btn-outline-success 执行成功边框按钮 btn-outline-info 信息提示边框按钮 btn-outline-warning 警告边框按钮 btn-outline-danger 危险操作边框按钮 btn-outline-dark 深灰色边框按钮 btn-outline-light 浅灰色边框按钮
+        btn-lg 大号按钮 btn-sm 小号按钮
+        btn-block 块级按钮
+        active 激活状态按钮 disable 禁用状态按钮
+按钮组
+    btn-group div创建按钮组
+        btn-group-lg 大按钮 btn-group-sm 默认按钮 btn-group-xs 小按钮
+        btn-group-vertical 垂直按钮组
+徽章Badges
+    badge span创建徽章
+        badge-primary 主要的徽章 badge-secondary 次要的徽章 badge-success 执行成功的徽章 badge-danger 危险操作的徽章 badge-warning 警告的徽章 badge-info 信息提示的徽章 badge-light 浅灰色的徽章 badge-dark 深灰色的徽章
+        badge-pill 药丸形状的徽章
+进度条
+    progress div创建空进度条
+        progress-bar + style="width:70%;" div创建进度条进度
+            height:20px style中可设置高度
+            innerhtml 可设置文本显示进度条进度
+            在颜色设置中的bg-属性同样可以设置进度条颜色
+
+            progress-bar-striped 条纹进度条
+            progress-bar-animated 进度条动画
+        
+        在progress中添加多个progress-bar可设置混合进度条
+分页
+    pagination ul 创建分页总项 
+        page-item li 创建分页分项
+            active 高亮显示
+            disable 禁用状态
+
+        pagination-lg 大字体 pagination-sm 小字体
+        breadcrumb ul + breadcrumb-item li 创建面包屑导航
+列表组
+    list-group ul、div 创建列表组总项
+        list-group-item li、a 创建列表组分项
+            active 高亮显示
+            disable 禁用状态
+            list-group-item-action 鼠标悬停状态
+            list-group-item-success 执行成功的列表项 list-group-item-secondary 次要的列表项 list-group-item-info 信息提示的列表项 list-group-item-warning 警告的列表项 list-group-item-danger 危险操作的列表项 list-group-item-dark 深灰色的列表项 list-group-item-light 浅灰色的列表项
+卡片
+    card div创建卡片
+        在颜色设置中的bg-属性同样可以设置进度条颜色
+
+        card-header 卡片头部样式 card-body 卡片内容 card-footer 卡点底部样式
+        card-title 卡片的标题 card-text 卡片的正文内容 card-link 卡片的链接
+
+        <img> card-img-top 图片在文字上方 card-img-bottom 图片在文字下方 card-img-overlay 图片当背景
+下拉菜单
+    dropdown div创建下拉菜单
+        dropdown-toggle + data-toggle="dropdown" 按钮或链接打开下拉菜单
+        dropdown-menu div创建菜单
+            dropdown-divider div创建水平的分割线
+            dropdown-header 文本创建标题
+            dropdown-item 创建下拉选项
+                active 高亮显示
+                disable 禁用状态
+        
+            dropdown-menu-right 下拉菜单右对齐
+    dropup div创建向上弹出的下拉菜单
+折叠板
+    data-toggle="collapse" + data-target="#id" 按钮或链接打开折叠板
+        data-parent="#父容器id" 一个折叠选项显示时其他选项就隐藏
+    collapse div创建折叠元素 
+        show 默认打开折叠板
+导航
+    nav ul创建导航栏
+        nav-item li创建导航栏选项
+            nav-link a创建导航栏链接
+        
+        justify-content-center 导航居中显示 justify-content-end 导航右对齐
+        flex-column 垂直导航
+        nav-tabs 选项卡导航 nav-pills 胶囊导航
+        nav-justified 齐行等宽显示
+
+        data-toggle="tab" 选项卡动态切换 data-toggle="pill" 胶囊动态切换
+            tab-pane div创建切换的内容
+                fade 淡入效果
